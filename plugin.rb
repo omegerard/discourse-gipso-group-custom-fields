@@ -4,7 +4,7 @@
 # about: Add the custom fields gipsomember_id and membershipfee_paid to a group
 # version: 0.1
 # authors: Ludo Vangilbergen based on Angus McLeod
-# url: https://github.com/paviliondev/discourse-education-group-custom-fields
+# url: https://github.com/omegerard/discourse-gipso-group-custom-fields
 
 after_initialize do
   
