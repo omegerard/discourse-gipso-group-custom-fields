@@ -1,0 +1,6 @@
+nl:
+  admin_js:
+    admin:
+      groups:
+        gipsomember_id:
+          label: "GiPSo lidnummer"

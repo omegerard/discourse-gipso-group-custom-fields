@@ -1,0 +1,14 @@
+<!-- STEP 1. This is where we get the user to input the data. Note that
+this template will be inserted into the groups-form-profile-fields component template
+which is used in both the group creation and group editing UIs. This means this input
+will be available both when creating and editing a group -->
+
+<div class="control-group">
+  <span>{{i18n 'admin.groups.gipsomember_id.label'}}</span>
+  {{input type="text" value=group.custom_fields.gipsomember_id}}
+</div>
+
+<div class="control-group">
+  {{input type="checkbox" checked=group.custom_fields.membershipfee_paid}}
+  <span>{{i18n 'admin.groups.membershipfee_paid.label'}}</span>
+</div>

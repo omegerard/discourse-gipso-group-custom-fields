@@ -1,0 +1,8 @@
+en:
+  admin_js:
+    admin:
+      groups:
+        gipsomember_id:
+          label: "GiPSo member ID"
+        membershipfee_paid:
+          label: "Membership fee paid"
